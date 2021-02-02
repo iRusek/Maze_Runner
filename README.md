@@ -13,5 +13,5 @@ I used Openpyxl in order to create a maze visualized by colors, to better unders
 ### How is the challenge solved?
 Each cell in the maze is a location dictionary.  
 Maze Runner will start running to paths yet undiscovered, using the Wall Follower algorythm.  
-Once getting close enough (45 cells) he will receive distance hints, and after 3 of those he can calculate the treasure location.  
+Once getting close enough (45 cells) it will receive distance hints, and after 3 of those it can calculate the treasure location.  
 From now on Maze Runner will run toward the treasure, still using the Wall Follower algorythm, "changing hands" in order to reach the target and avoid different obstacles.
